@@ -12,6 +12,7 @@ var server = http.createServer(function(req, res){
 const PORT = 8080;
 server.listen(PORT, '127.0.0.1');
 
-console.log(`Server listening on port ${PORT}`);
 
+console.log('Testing');
+console.log(`Server listening on port ${PORT}`);
 
